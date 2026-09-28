@@ -44,7 +44,6 @@ export default function Navbar({ activeMode, setActiveMode, onReset, onGoHome })
               <span style={{ fontSize: '1.25rem', fontWeight: '800', letterSpacing: '-0.03em', color: '#F8FAFC' }}>
                 Data<span style={{ color: '#818CF8' }}>Morph</span>
               </span>
-              <span className="badge badge-indigo">Automated Engine</span>
             </div>
             <p style={{ fontSize: '0.72rem', color: '#94A3B8', marginTop: '-2px' }}>
               Automated Data Profiling & Intelligent Cleaning
