@@ -10,7 +10,7 @@ DataMorph is an enterprise-grade data handling and automatic cleaning engine des
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Tabular & Semi-Structured Dataset Engine
 - **Multi-Format Support:** Ingests CSV, TSV, JSON (flat or deeply nested), Excel (`.xlsx`, `.xls`), and Parquet.
