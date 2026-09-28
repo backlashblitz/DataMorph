@@ -1,5 +1,6 @@
 import io
 import os
+import sys
 import json
 import uuid
 from typing import Dict, Any, Optional
@@ -8,6 +9,11 @@ import pandas as pd
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException, Query
 from fastapi.responses import Response, JSONResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
+
+# Ensure backend directory is in sys.path
+backend_dir = os.path.dirname(os.path.abspath(__file__))
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
 
 from engine.tabular_cleaner import detect_and_read_file, profile_dataframe, clean_tabular_data
 from engine.textual_cleaner import process_text_archive_or_files

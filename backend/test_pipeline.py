@@ -1,6 +1,13 @@
 import io
+import os
+import sys
 import pandas as pd
 import numpy as np
+
+backend_dir = os.path.dirname(os.path.abspath(__file__))
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+
 from engine.tabular_cleaner import clean_tabular_data, profile_dataframe
 from engine.report_generator import build_pdf_report
 from engine.textual_cleaner import process_text_archive_or_files
