@@ -1,6 +1,11 @@
 # DataMorph ⚡
 > **Automated Intelligent Dataset Profiling, Sanitization & PDF Audit Reporting Engine**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-DataMorph%20Web%20App-10B981?style=for-the-badge&logo=render&logoColor=white)](https://datamorph-95qf.onrender.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+🌐 **Live Application URL:** [https://datamorph-95qf.onrender.com/](https://datamorph-95qf.onrender.com/)
+
 DataMorph is an enterprise-grade data handling and automatic cleaning engine designed to take raw, messy, or unstructured datasets (CSV, JSON, Excel, Parquet, or multi-folder text corpus) and transform them into production-ready, clean data with detailed before-vs-after analytics and executive PDF audit reports.
 
 ---
